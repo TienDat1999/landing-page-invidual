@@ -1,2 +1,2 @@
-require('./main.scss');
-require('./operation/operation.js')
+require("./main.scss");
+require("./javascript/particles.js");
