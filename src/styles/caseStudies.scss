@@ -19,6 +19,9 @@
 		@include tablet-large() {
 			width: 60%;
 		}
+		@include destop-large() {
+			width: 58%;
+		}
 		> div {
 			padding-left: 50px;
 			@include tablet-large() {
@@ -28,7 +31,7 @@
 				padding-left: 145px;
 			}
 			@include destop-large() {
-				padding-left: 195px;
+				padding-left: 210px;
 			}
 		}
 	}
@@ -56,7 +59,7 @@
 			left: -10px;
 		}
 		@include destop-large() {
-			left: 18px;
+			left: 20px;
 		}
 	}
 	&__heading {
