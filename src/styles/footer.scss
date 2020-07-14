@@ -26,9 +26,15 @@ footer {
     padding: 46px 0 38.56px;
 
     & > div {
+      box-sizing: border-box;
       width: 50%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
       &.col-left {
         padding-left: 109px;
+        padding-right: 15px;
+
         @media (max-width: 768px) {
           padding-left: 30px;
         }
@@ -44,10 +50,11 @@ footer {
         a {
           color: #fff;
           font-size: 14px;
-          text-transform: uppercase;
           z-index: 4;
+          text-transform: uppercase;
         }
         .help {
+          z-index: 4;
           & > div {
             display: flex;
             flex-direction: column;
@@ -62,7 +69,7 @@ footer {
         }
       }
       &.col-right {
-        padding-left: 15px;
+        padding: 0 15px;
         p {
           margin-bottom: 10px;
           color: #fff;

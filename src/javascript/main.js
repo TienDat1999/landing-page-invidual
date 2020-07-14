@@ -21,8 +21,8 @@ closeBtn.addEventListener("click", () => {
 
 const dataWrapperText = [
   "We extract data from servers and put it in the hands of users, where it’s most valuable.",
-  "We extract data in the hands of users, where it’s .",
-  "We extract data from uers, where it’s most valuable.",
+  "Simply dummy text of the printing and typesetting industry.",
+  "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.",
 ];
 setInterval(() => {
   textMain.textContent =
