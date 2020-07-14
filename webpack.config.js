@@ -28,6 +28,7 @@ module.exports = {
         test: /\.(scss|css)$/,
         use: [
           MiniCssExtractPlugin.loader,
+
           {
             loader: "css-loader",
             options: {
@@ -35,6 +36,7 @@ module.exports = {
               minimize: !isDevelopment,
             },
           },
+
           {
             loader: "postcss-loader",
             options: {
@@ -60,7 +62,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "static/",
+              outputPath: "assets/",
               useRelativePath: true,
             },
           },
