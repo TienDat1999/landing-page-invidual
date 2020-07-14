@@ -108,8 +108,9 @@
 
 .toggle {
   z-index: 10;
+  fill: #f29d21;
   display: none;
-  width: 50px;
+  width: 35px;
   height: auto;
   @include mobile-tablet() {
     display: flex;
@@ -134,7 +135,7 @@ nav {
   }
 }
 
-.wrapper__text {
+.main__content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,8 +206,9 @@ nav {
   padding-left: 4px;
   height: 31.73px;
   border-radius: 50%;
+  z-index: 2;
   border: none;
-  outline: none;
+  outline: none !important;
   &.bg_white {
     background-color: #fff;
   }
@@ -216,6 +218,7 @@ nav {
   height: 100%;
   z-index: 22;
   width: 320px;
+  z-index: 6;
   position: fixed;
   top: 0;
   right: -320px;
@@ -235,7 +238,7 @@ nav {
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
-    color: #818181;
+    color: #fff;
     display: block;
     transition: 0.3s;
   }

@@ -3,17 +3,17 @@ window.onload = () => {
   const closeBtn = document.getElementById("close_menu");
   const textMain = document.getElementById("textMain");
 
-  function openNav() {
+  const openNav = () => {
     document.getElementById("mySidenav").style.right = "0";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-  }
+  };
 
-  function closeNav() {
+  const closeNav = () => {
     document.getElementById("mySidenav").style.right = "-320px";
     document.body.style.backgroundColor = "white";
-  }
+  };
 
-  toggle.addEventListener("click", function () {
+  toggle.addEventListener("click", () => {
     openNav();
   });
   closeBtn.addEventListener("click", () => {
@@ -32,5 +32,5 @@ window.onload = () => {
   setInterval(() => {
     textMain.textContent =
       dataWrapperText[Math.floor(Math.random() * dataWrapperText.length)];
-  }, 3470);
+  }, 3400);
 };
