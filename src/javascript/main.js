@@ -32,5 +32,5 @@ window.onload = () => {
   setInterval(() => {
     textMain.textContent =
       dataWrapperText[Math.floor(Math.random() * dataWrapperText.length)];
-  }, 3400);
+  }, 3500);
 };
