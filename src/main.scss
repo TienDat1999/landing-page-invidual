@@ -1,4 +1,3 @@
-@import "./styles/whatabout.scss";
 @import "./styles/commons/responsive.scss";
 @import "./styles/commons/variables.scss";
 @import "./styles/commons/features.scss";
@@ -24,16 +23,10 @@ ul {
 
 @import "./styles/commons/responsive.scss";
 @import "./styles/commons/reset.scss";
-@import "./styles/communication.scss";
-@import "./styles/headerContactUs.scss";
-@import "./styles/contactUs.scss";
-@import "./styles/visitor.scss";
 @import "./styles/commons/variables.scss";
 @import "./styles/commons/responsive.scss";
-@import "./styles/hiring.scss";
 @import "./styles/commons/responsive.scss";
 @import "./styles/header.scss";
-@import "./styles/login.scss";
 @import "./styles//commons/particles.scss";
 @import "./styles/footer.scss";
 body {
@@ -87,4 +80,71 @@ a:focus {
   }
   padding-left: 130px;
   padding-right: 130px;
+}
+
+.fade-in {
+  animation: fadeIn infinite 2.5s ease-in-out;
+  -webkit-animation: fadeIn infinite 2.5s ease-in-out;
+  -moz-animation: fadeIn infinite 2.5s ease-in-out;
+  -o-animation: fadeIn infinite 2.5s ease-in-out;
+  -ms-animation: fadeIn infinite 2.5s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

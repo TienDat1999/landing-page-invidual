@@ -14,7 +14,7 @@ particlesJS("particles-js", {
       anim: { enable: true, speed: 1, opacity_min: 0, sync: false },
     },
     size: {
-      value: 10,
+      value: 7,
       random: true,
       anim: { enable: false, speed: 4, size_min: 0.3, sync: false },
     },
@@ -69,7 +69,7 @@ particlesJS("particles-js-footer", {
       anim: { enable: true, speed: 1, opacity_min: 0, sync: false },
     },
     size: {
-      value: 10,
+      value: 7,
       random: true,
       anim: { enable: false, speed: 4, size_min: 0.3, sync: false },
     },
