@@ -3,6 +3,9 @@
 @import "./styles/commons/reset.scss";
 @import "./styles/helpOther.scss";
 @import "./styles/caseStudies.scss";
+@import "./styles/footer.scss";
+@import "./styles/header.scss";
+@import "./styles//commons/particles.scss";
 
 html {
 	box-sizing: border-box;
@@ -17,7 +20,7 @@ html {
 	padding: 0;
 }
 
-.container{
+.container {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -34,4 +37,71 @@ a {
 }
 ul {
 	list-style: none;
+}
+
+.fade-in {
+	animation: fadeIn infinite 3.5s ease-in-out;
+	-webkit-animation: fadeIn infinite 3.5s ease-in-out;
+	-moz-animation: fadeIn infinite 3.5s ease-in-out;
+	-o-animation: fadeIn infinite 3.5s ease-in-out;
+	-ms-animation: fadeIn infinite 3.5s ease-in-out;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }

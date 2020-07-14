@@ -4,10 +4,14 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	padding-bottom: 20px;
+	@include destop-large() {
+		padding-bottom: 0;
+	}
 	&__top {
 		// top: 65px;
 		// left: 85px;
-		padding-top: 25px;
+		padding-top: 50px;
 		color: #27133e;
 		text-align: center;
 		@include tablet() {

@@ -1,1 +1,3 @@
-require('./main.scss');
+require("./main.scss");
+require("./javascript/particles.js");
+require("./javascript/main.js");
