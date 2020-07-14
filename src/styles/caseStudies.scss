@@ -8,6 +8,10 @@
 		flex-direction: row;
 		align-items: center;
 	}
+	@include destop-large(){
+		padding-top: 150px;
+		padding-bottom: 80px;
+	}
 
 	&__text {
 		position: relative;
@@ -19,9 +23,12 @@
 			padding-left: 50px;
 			@include tablet-large() {
 				padding-left: 80px;
-      }
-      @include destop() {
+			}
+			@include destop() {
 				padding-left: 145px;
+			}
+			@include destop-large() {
+				padding-left: 195px;
 			}
 		}
 	}
@@ -38,13 +45,18 @@
 		}
 		@include tablet() {
 			font-size: 18px;
-      top: 50px;
-      left: -35px;
+			top: 50px;
+			left: -35px;
 		}
 		@include tablet-large() {
 			font-size: 24px;
 			top: 75px;
-			left: -20px;
+		}
+		@include destop() {
+			left: -10px;
+		}
+		@include destop-large() {
+			left: 18px;
 		}
 	}
 	&__heading {
@@ -78,6 +90,9 @@
 		@include tablet-large() {
 			font-size: 30px;
 		}
+		@include destop-large() {
+			margin-top: 30px;
+		}
 	}
 	&__img {
 		width: 100%;
@@ -85,6 +100,9 @@
 			width: 40%;
 		}
 		text-align: center;
+		@include destop-large() {
+			padding-right: 50px;
+		}
 		img {
 			width: 90%;
 			@include tablet() {

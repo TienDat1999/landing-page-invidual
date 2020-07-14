@@ -46,6 +46,11 @@ html {
 		max-width: 1140px;
 	}
 }
+@media (min-width: 1440px) {
+	.container {
+		max-width: 1440px;
+	}
+}
 .row {
 	display: -ms-flexbox;
 	display: flex;

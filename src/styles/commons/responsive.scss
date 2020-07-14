@@ -2,6 +2,7 @@ $small	: 576px;
 $medium	: 768px;
 $large	: 992px;
 $extra-large	: 1200px;
+$supper-large : 1440px;
 
 @mixin mobile-large {
 	@media (min-width : $small) {
@@ -23,6 +24,12 @@ $extra-large	: 1200px;
 
 @mixin destop {
 	@media (min-width : $extra-large) {
+		@content;
+	}
+}
+
+@mixin destop-large {
+	@media (min-width : $supper-large) {
 		@content;
 	}
 }
