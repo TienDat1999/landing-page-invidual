@@ -24,7 +24,6 @@ ul {
 
 @import "./styles/commons/responsive.scss";
 @import "./styles/commons/reset.scss";
-@import "./styles/inbox.scss";
 @import "./styles/communication.scss";
 @import "./styles/headerContactUs.scss";
 @import "./styles/contactUs.scss";
@@ -88,8 +87,4 @@ a:focus {
   }
   padding-left: 130px;
   padding-right: 130px;
-}
-
-.particles-js-canvas-el {
-  max-width: 1440px;
 }
