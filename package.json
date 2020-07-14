@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "NODE_ENV=production webpack --mode=production",
-    "build:css": "tailwind build src/style.css -o dist/style.css"
+    "build": "NODE_ENV=production webpack --mode=production"
   },
   "author": "deverpham",
   "license": "ISC",
