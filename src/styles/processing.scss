@@ -1,8 +1,9 @@
 //wrapper common config
 .processing_wrapper {
-	padding: 87.41px 73px 122.88px 100px;
+	padding: 87px 73px;
 	box-sizing: border-box;
 	width: 100%;
+	background-color: #e5e5e5;
 	@media (max-width: 768px) {
 		.processing_image_wrapper {
 			flex-direction: column;
@@ -57,7 +58,7 @@
 .processing_image_wrapper {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 53.59px;
+	margin-top: 65px;
 
 	.processing_item {
 		@extend .text_content;
@@ -86,7 +87,7 @@
 			top: 207.32px;
 			display: flex;
 			justify-content: space-between;
-			box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.06);
+			// box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.06);
 			margin-left: 13px;
 			align-items: flex-end;
 			.article {
@@ -99,18 +100,18 @@
 				position: relative;
 				.process_text {
 					position: absolute;
-					padding-left: 21.84px;
-
+					padding-left: 24px;
+					color: #27133e;
 					width: 185px;
 					line-height: 2.1rem;
-					bottom: 30.89px;
+					bottom: 37px;
 					font-size: 16px;
 				}
 				img {
 					position: absolute;
 					width: 57.24px;
-					bottom: 24.89px;
-					right: 24.7px;
+					bottom: 22px;
+					right: 24px;
 				}
 				&::after {
 					content: "";
@@ -132,12 +133,12 @@
 	}
 
 	.first_config {
-		background-image: url("./assets/images/back-image1.jpg");
+		background-image: url("./assets/images/back-image1.png");
 		background-size: cover;
 		margin-bottom: 15px;
 	}
 	.second_config {
-		background-image: url("./assets/images/back-image2.jpg");
+		background-image: url("./assets/images/back-image2.png");
 		background-size: cover;
 	}
 }
@@ -146,7 +147,7 @@
 	width: 31.73px;
 	height: 31.73px;
 	cursor: pointer;
-	padding-left: 4px;
+	padding-bottom: 2px;
 	border-radius: 50%;
 	position: relative;
 	z-index: 2;

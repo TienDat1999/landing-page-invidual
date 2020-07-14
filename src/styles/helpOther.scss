@@ -9,8 +9,6 @@
 		padding-bottom: 0;
 	}
 	&__top {
-		// top: 65px;
-		// left: 85px;
 		padding-top: 50px;
 		color: #27133e;
 		text-align: center;
@@ -33,7 +31,7 @@
 			font-size: 20px;
 			font-weight: bold;
 			font-family: "Inter", sans-serif;
-
+			color: #27133e;
 			@include tablet() {
 				font-size: 22px;
 			}
@@ -107,7 +105,7 @@
 			}
 			@include destop-large() {
 				font-size: 30px;
-				padding: 25px;
+				padding: 21px 25px;
 			}
 		}
 
@@ -122,7 +120,7 @@
 			}
 			@include destop-large() {
 				.help-other__more {
-					top: -87px;
+					top: -78px;
 					transition: all 0.3s;
 				}
 			}
@@ -140,8 +138,11 @@
 		width: 100%;
 		padding: 10px;
 		// height: 0;
+		@include tablet() {
+			padding: 20px;
+			// top: -115px;
+		}
 		@include tablet-large() {
-			padding: 15px;
 			top: -115px;
 		}
 		@include destop() {
@@ -149,7 +150,7 @@
 			top: -153px;
 		}
 		@include destop-large() {
-			padding: 25px;
+			padding: 21px 25px;
 			top: -220px;
 		}
 		transition: all 0.3s;
