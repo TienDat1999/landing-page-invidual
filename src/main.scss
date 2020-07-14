@@ -1,87 +1,149 @@
-@import "./styles/whatabout.scss";
 @import "./styles/commons/responsive.scss";
 @import "./styles/commons/variables.scss";
-@import"./styles/commons/features.scss";
+@import "./styles/commons/features.scss";
 
+html {
+  font-size: 62.5%;
+}
 
-html{
-    font-size: 62.5%;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
 }
- 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Work Sans;
+
+p,
+h1 {
+  margin: 0;
+  padding: 0;
 }
-p,h1{
-    margin: 0;
-    padding: 0;
-}
-ul{
+ul {
   list-style: none;
 }
 
-@import './styles/commons/responsive.scss';
-@import './styles/commons/reset.scss';
-@import './styles/inbox.scss';
-@import './styles/communication.scss';
-@import './styles/headerContactUs.scss';
-@import './styles/contactUs.scss';
-@import './styles/visitor.scss';
-@import './styles/commons/variables.scss';
-@import './styles/commons/responsive.scss';
-@import './styles/hiring.scss';
-@import './styles/commons/responsive.scss';
-@import './styles/header.scss';
-@import './styles/login.scss';
-
+@import "./styles/commons/responsive.scss";
+@import "./styles/commons/reset.scss";
+@import "./styles/commons/variables.scss";
+@import "./styles/commons/responsive.scss";
+@import "./styles/commons/responsive.scss";
+@import "./styles/header.scss";
+@import "./styles//commons/particles.scss";
+@import "./styles/footer.scss";
 body {
-    font-size: 2.2rem;
-    font-family: 'Work Sans', sans-serif;
-    font-family: 'Work Sans';
-    margin: 0 ;
-    padding:0 ;
-    font-size: 2.2rem;
+  font-size: 2.2rem;
+  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans";
+  margin: 0;
+  padding: 0;
+  font-size: 2.2rem;
+  margin: 0 auto;
 }
-a, a:active, a:focus {
-    text-decoration: none;
-    color:#2B292D;
+a,
+a:active,
+a:focus {
+  text-decoration: none;
 }
 .btn--primary {
-    box-sizing: border-box;
-    display: inline-block;
-    cursor: pointer;
-    background: $primaryColor;
-    color: $infoColor;
-    padding:16px 28px;
-    border-radius: 2px;
-    font-size: 1.7rem;
-    font-weight: bold;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  background: $primaryColor;
+  color: $infoColor;
+  padding: 16px 28px;
+  border-radius: 2px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-    
-a, a:active, a:focus {
-    text-decoration: none;
-    color:$textColor;
+a,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: $textColor;
 }
-
 
 .btn--info {
-    @extend .btn--primary;
-    background: #FFFFFF;
-    color: $primaryColor;
+  @extend .btn--primary;
+  background: #ffffff;
+  color: $primaryColor;
 }
 .container {
-    @include  ipad(){
-        padding-left: 65px;
-        padding-right: 65px;
-    }
-    @include  mobile-tablet(){
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    padding-left:130px;
-    padding-right:130px;
+  @include ipad() {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  @include mobile-tablet() {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.fade-in {
+  animation: fadeIn infinite 3.5s ease-in-out;
+  -webkit-animation: fadeIn infinite 3.5s ease-in-out;
+  -moz-animation: fadeIn infinite 3.5s ease-in-out;
+  -o-animation: fadeIn infinite 3.5s ease-in-out;
+  -ms-animation: fadeIn infinite 3.5s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
