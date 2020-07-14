@@ -27,9 +27,10 @@ window.onload = () => {
     "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
     "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary",
     "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
+    "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
   ];
   setInterval(() => {
     textMain.textContent =
       dataWrapperText[Math.floor(Math.random() * dataWrapperText.length)];
-  }, 2490);
+  }, 3470);
 };

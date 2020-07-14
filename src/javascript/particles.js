@@ -14,7 +14,7 @@ particlesJS("particles-js", {
       anim: { enable: true, speed: 1, opacity_min: 0, sync: false },
     },
     size: {
-      value: 7,
+      value: 4,
       random: true,
       anim: { enable: false, speed: 4, size_min: 0.3, sync: false },
     },
@@ -55,7 +55,7 @@ particlesJS("particles-js", {
 });
 particlesJS("particles-js-footer", {
   particles: {
-    number: { value: 250, density: { enable: true, value_area: 800 } },
+    number: { value: 350, density: { enable: true, value_area: 800 } },
     color: { value: "random" },
     shape: {
       type: "circle",
@@ -69,7 +69,7 @@ particlesJS("particles-js-footer", {
       anim: { enable: true, speed: 1, opacity_min: 0, sync: false },
     },
     size: {
-      value: 7,
+      value: 4,
       random: true,
       anim: { enable: false, speed: 4, size_min: 0.3, sync: false },
     },

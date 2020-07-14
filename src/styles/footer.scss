@@ -1,8 +1,6 @@
 footer {
   position: relative;
-  &#particles-js-footer {
-    background-color: #004260;
-  }
+  background-color: #004260;
   height: 341.72px;
   width: 100%;
   @media (max-width: 470px) {
@@ -79,9 +77,23 @@ footer {
           font-size: 14px;
           font-weight: normal;
         }
+        .particles-js-canvas-el {
+          width: 50% !important;
+          height: 100%;
+          left: 45%;
+        }
+        @media (max-width: 470px) {
+          position: relative;
+          .particles-js-canvas-el {
+            width: 100% !important;
+            left: initial;
+            bottom: 0;
+            right: 0;
+          }
+        }
       }
       & > .address {
-        margin-bottom: 42.38px;
+        margin-bottom: 58.38px;
       }
       & > .info {
         p:nth-child(2) {
