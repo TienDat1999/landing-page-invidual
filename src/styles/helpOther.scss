@@ -1,155 +1,155 @@
 @import "./commons/responsive.scss";
 .help-other {
-	background: url("../assets/images/kendalL4iKccAChOcUnsplash.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	&__top {
-		// top: 65px;
-		// left: 85px;
-		padding-top: 25px;
-		color: #27133e;
-		text-align: center;
-		@include tablet() {
-			text-align: left;
-			padding-left: 25px;
-			padding-top: 30px;
-		}
-		@include tablet-large() {
-			padding-left: 70px;
-			padding-top: 50px;
-		}
-		@include destop() {
-			padding-left: 85px;
-			padding-top: 65px;
-		}
-		width: 100%;
-		a {
-			text-decoration: none;
-			font-size: 20px;
-			font-weight: bold;
-			font-family: "Inter", sans-serif;
+  background: url("./assets/images/help-other-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &__top {
+    // top: 65px;
+    // left: 85px;
+    padding-top: 25px;
+    color: #27133e;
+    text-align: center;
+    @include tablet() {
+      text-align: left;
+      padding-left: 25px;
+      padding-top: 30px;
+    }
+    @include tablet-large() {
+      padding-left: 70px;
+      padding-top: 50px;
+    }
+    @include destop() {
+      padding-left: 85px;
+      padding-top: 65px;
+    }
+    width: 100%;
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Inter", sans-serif;
 
-			@include tablet() {
-				font-size: 22px;
-			}
-			@include destop() {
-				font-size: 24px;
-			}
-		}
-	}
+      @include tablet() {
+        font-size: 22px;
+      }
+      @include destop() {
+        font-size: 24px;
+      }
+    }
+  }
 
-	&__bottom {
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		padding: 70px 25px 5px;
-		@include tablet() {
-			justify-content: flex-start;
-			padding: 100px 25px 5px;
-		}
-		@include tablet-large() {
-			padding: 290px 70px 0;
-		}
-		@include destop() {
-			padding: 430px 85px 0;
-		}
-		> div {
-			width: 70%;
-			padding: 5px;
-			cursor: default;
-			@include mobile-large() {
-				width: 50%;
-			}
-			@include tablet() {
-				width: 33.3333%;
-			}
-			@include tablet-large() {
-				width: 25%;
-			}
-		}
-	}
+  &__bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px 25px 5px;
+    @include tablet() {
+      justify-content: flex-start;
+      padding: 100px 25px 5px;
+    }
+    @include tablet-large() {
+      padding: 290px 70px 0;
+    }
+    @include destop() {
+      padding: 430px 85px 0;
+    }
+    > div {
+      width: 70%;
+      padding: 5px;
+      cursor: default;
+      @include mobile-large() {
+        width: 50%;
+      }
+      @include tablet() {
+        width: 33.3333%;
+      }
+      @include tablet-large() {
+        width: 25%;
+      }
+    }
+  }
 
-	&__box {
+  &__box {
     border-top: 4px solid #004269;
-		overflow: hidden;
-		@include tablet-large() {
-			border-top-color: #f29d21;
-		}
-		> p {
-			font-family: "Inter", sans-serif;
-			color: #fff;
-			font-size: 14px;
-			padding: 5px;
-			@include tablet-large() {
-				font-size: 18px;
-			}
-		}
+    overflow: hidden;
+    @include tablet-large() {
+      border-top-color: #f29d21;
+    }
+    > p {
+      font-family: "Inter", sans-serif;
+      color: #fff;
+      font-size: 14px;
+      padding: 5px;
+      @include tablet-large() {
+        font-size: 18px;
+      }
+    }
 
-		&:hover {
-			@include tablet-large() {
+    &:hover {
+      @include tablet-large() {
         // border-width: 5px;
         border-top-color: #004269;
         transition: all 0.3s;
-        .help-other__more{
+        .help-other__more {
           top: -39px;
           transition: all 0.3s;
         }
-			}
-		}
-	}
+      }
+    }
+  }
 
-	&__more {
-		cursor: pointer;
-		position: relative;
-		display: inline-block;
-		// border-top: 4px solid #004269;
-		background-color: #f29d21;
-		z-index: 15;
-		top: -29px;
-		left: 0;
-		width: 100%;
-		padding: 5px;
-		// height: 0;
-		@include tablet-large() {
-			padding: 10px;
-			top: -115px;
-		}
-		@include destop() {
-			padding: 15px;
-		}
-		transition: all 0.3s;
-		p:last-child {
-			font-family: "Inter", sans-serif;
-			color: #27133e;
-			margin: 0;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			@include tablet-large() {
-				font-size: 18px;
-			}
-			// @include destop() {
-			// 	font-size: 30px;
-			// }
-			img {
-				width: 20px;
-				height: auto;
-			}
-		}
+  &__more {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    // border-top: 4px solid #004269;
+    background-color: #f29d21;
+    z-index: 15;
+    top: -29px;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    // height: 0;
+    @include tablet-large() {
+      padding: 10px;
+      top: -115px;
+    }
+    @include destop() {
+      padding: 15px;
+    }
+    transition: all 0.3s;
+    p:last-child {
+      font-family: "Inter", sans-serif;
+      color: #27133e;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @include tablet-large() {
+        font-size: 18px;
+      }
+      // @include destop() {
+      // 	font-size: 30px;
+      // }
+      img {
+        width: 20px;
+        height: auto;
+      }
+    }
 
-		p:first-child {
-			font-family: "Inter", sans-serif;
-			color: #004260;
-			padding-bottom: 5px;
-			@include tablet-large() {
-				padding-bottom: 10px;
-				font-size: 18px;
-			}
-			// @include destop() {
-			// 	font-size: 30px;
-			// }
-		}
-	}
+    p:first-child {
+      font-family: "Inter", sans-serif;
+      color: #004260;
+      padding-bottom: 5px;
+      @include tablet-large() {
+        padding-bottom: 10px;
+        font-size: 18px;
+      }
+      // @include destop() {
+      // 	font-size: 30px;
+      // }
+    }
+  }
 }
