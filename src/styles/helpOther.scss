@@ -109,7 +109,6 @@
 
 		&:hover {
 			@include tablet-large() {
-				// border-width: 5px;
 				border-top-color: #004269;
 				transition: all 0.3s;
 				.help-other__more {
@@ -130,7 +129,6 @@
 		cursor: pointer;
 		position: relative;
 		display: inline-block;
-		// border-top: 4px solid #004269;
 		background-color: #f29d21;
 		z-index: 15;
 		top: -29px;
@@ -158,9 +156,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			@include tablet-large() {
-				font-size: 18px;
-			}
+			font-size: 18px;
 			@include destop() {
 				font-size: 24px;
 			}
@@ -177,9 +173,9 @@
 			font-family: "Inter", sans-serif;
 			color: #004260;
 			padding-bottom: 5px;
+			font-size: 18px;
 			@include tablet-large() {
 				padding-bottom: 10px;
-				font-size: 18px;
 			}
 			@include destop() {
 				font-size: 24px;
