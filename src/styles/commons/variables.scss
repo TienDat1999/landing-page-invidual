@@ -25,29 +25,3 @@ h5 {
 @mixin faded {
   opacity: 0.3;
 }
-body {
-  // max-width: 1440px;
-}
-
-.play__circle {
-  width: 31.73px;
-  height: 31.73px;
-  cursor: pointer;
-  padding: 4px 0 0 4px;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-  border: none;
-  outline: none !important;
-  &.bg_white {
-    background-color: #fff;
-  }
-  img {
-    width: 12.87px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  }
-}
