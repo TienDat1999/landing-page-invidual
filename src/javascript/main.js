@@ -1,15 +1,16 @@
 window.onload = () => {
   const toggle = document.getElementById("toggle_menu");
   const closeBtn = document.getElementById("close_menu");
+  const textWrapper = document.getElementById("main_content");
   const textMain = document.getElementById("textMain");
-
+  textWrapper.classList.add("fade-in");
   const openNav = () => {
     document.getElementById("mySidenav").style.right = "0";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
   };
 
   const closeNav = () => {
-    document.getElementById("mySidenav").style.right = "-320px";
+    document.getElementById("mySidenav").style.right = "-100%";
     document.body.style.backgroundColor = "white";
   };
 
@@ -32,5 +33,5 @@ window.onload = () => {
   setInterval(() => {
     textMain.textContent =
       dataWrapperText[Math.floor(Math.random() * dataWrapperText.length)];
-  }, 3500);
+  }, 8500);
 };

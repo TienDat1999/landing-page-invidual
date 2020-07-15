@@ -35,14 +35,16 @@ footer {
         @media (max-width: 768px) {
           padding-left: 30px;
         }
-
+        @media (max-width: 470px) {
+          margin-bottom: 20px;
+        }
         height: -webkit-fill-available;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         img {
           width: 135px;
           height: 46px;
+          margin-bottom: 44.96px;
         }
         a {
           color: #fff;
@@ -52,6 +54,10 @@ footer {
         }
         .footer__help {
           z-index: 4;
+          margin-bottom: 68.21px;
+          @media (max-width: 470px) {
+            margin-bottom: 20px;
+          }
           & > div {
             display: flex;
             flex-direction: column;
@@ -93,7 +99,10 @@ footer {
         }
       }
       & > .footer__address {
-        margin-bottom: 58.38px;
+        margin-bottom: 40.38px;
+        @media (max-width: 470px) {
+          margin-bottom: 20px;
+        }
       }
       & > .footer__info {
         p:nth-child(2) {
