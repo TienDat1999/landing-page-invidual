@@ -128,3 +128,22 @@ ul {
     opacity: 0;
   }
 }
+
+.play__circle {
+  width: 31.73px;
+  height: 31.73px;
+  cursor: pointer;
+  padding: 2px 0 0 4px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  border: none;
+  outline: none !important;
+  &.bg_white {
+    background-color: #fff;
+  }
+  img {
+    width: 12.87px;
+    margin: 0 auto;
+  }
+}
