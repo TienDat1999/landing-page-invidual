@@ -7,6 +7,12 @@ html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
   font-size: 10px;
+  @include tablet(){
+    font-size: 8px;
+  }
+  @include mobile(){
+    font-size: 5px;
+  }
 }
 html {
   font-family: "Inter", sans-serif;

@@ -107,6 +107,10 @@
   padding-bottom: 10rem;
 }
 .signal {
+  @include mobile(){
+    margin-top: 50px;
+  }
+ 
   .img-line3 {
     display: block;
     margin-left: auto;
@@ -114,6 +118,15 @@
   }
   .img__line {
     margin-top: 12rem;
+    @include tablet(){
+      width: 100%;
+    }
+    @include mobile(){
+      width: 100%;
+      transform: rotate(90deg);
+      margin-top: 221px;
+    }
+
   }
   &__title {
     font-size: 3.6rem;
@@ -128,14 +141,14 @@
     display: flex;
   }
   .circle {
-    width: 162px;
-    height: 162px;
+    width: 16.2rem;
+    height: 16.2rem;
     background-color: #ebf0f3;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 162px;
+    font-size: 4.8rem;
+    line-height: 16.2rem;
     border-radius: 50% 50%;
   }
   .text__number {
@@ -145,15 +158,69 @@
     position: relative;
     top: -106px;
     left: 310px;
-  }
+    @include tablet(){
+      top: -44px;
+      left: 144px;
+    }
+    @include tablet-large(){
+      top: -70px;
+      left: 214px;
+    }
+    @include mobile(){
+      top: -147px;
+      left: 84px;
+    }
+  }  
   .signal__configure {
     position: relative;
     top: -195px;
     left: 457px;
+    @include tablet(){
+      top: -156px;
+      left: 165px;
+    }
+    @include tablet-large(){
+      top: -156px;
+      left: 298px;
+    }
+    @include mobile(){
+      top: -59px;
+      left: 137px;
+    }
   }
   .signal__start {
     position: relative;
-    top: -106px;
-    left: 527px;
+    top: -44px;
+    left: 216px;
+    @include tablet(){
+      top: -44px;
+      left: 171px;
+    }
+    @include tablet-large(){
+      top: -67px;
+      left: 354px;
+    }
+    @include mobile(){
+      top: 30px;
+      left: -112px;
+    }
+  }
+  .text__description{
+    width: 19.5rem; 
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    @include mobile(){
+      margin-top: 20px !important;
+    }
+  }
+  .text__bolth{
+    margin-top: 20px;
+  }
+  .text__mid{
+    margin-top: 53px;
   }
 }
