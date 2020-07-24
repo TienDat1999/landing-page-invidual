@@ -6,6 +6,7 @@
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
+  font-size: 10px;
 }
 html {
   font-family: "Inter", sans-serif;
@@ -42,103 +43,4 @@ ul {
   list-style: none;
 }
 
-.fade-in {
-  animation: fadeIn infinite 8.5s ease-in-out;
-  -webkit-animation: fadeIn infinite 8.5s ease-in-out;
-  -moz-animation: fadeIn infinite 8.5s ease-in-out;
-  -o-animation: fadeIn infinite 8.5s ease-in-out;
-  -ms-animation: fadeIn infinite 8.5s ease-in-out;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.play__circle {
-  width: 31.73px;
-  height: 31.73px;
-  cursor: pointer;
-  padding: 2px 0 0 4px;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-  border: none;
-  outline: none !important;
-  &.bg_white {
-    background-color: #fff;
-  }
-  img {
-    width: 12.87px;
-    margin: 0 auto;
-  }
-}
