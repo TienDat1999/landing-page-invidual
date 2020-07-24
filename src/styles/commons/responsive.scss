@@ -9,7 +9,11 @@ $supper-large : 1440px;
 		@content;
 	}
 }
-
+@mixin  mobile {
+	@media (max-width : $small) {
+		@content;
+	}
+}
 @mixin tablet {
 	@media (min-width : $medium) {
 		@content;

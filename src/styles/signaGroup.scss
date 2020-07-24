@@ -1,0 +1,68 @@
+.contain--card{
+    display: flex;
+    justify-content: center;
+    .img-startup{
+        width: 74px;
+        height: 98px;
+    }
+    .img-whale{
+        margin-top: 40px;
+        width: 131px;
+        height: 89px;
+    }
+    .img-joystick{
+        width: 95px;
+        height: 95px;
+    }
+    .card{
+        cursor: pointer;
+        text-align: center;
+        position: relative;
+        width: 327px;
+        background: #FFFFFF;
+        box-shadow: 3px 8px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 30px;
+    }
+    .card-small{
+        padding-top: 43px;
+        @extend .card;
+        top: -170px;
+        height: 385px;
+    }
+    .card-big{
+        padding-top: 43px;
+        @extend .card;
+        top: -216px;
+        height: 479px;
+    }
+  
+    #card-small-l{
+        margin-right: 79px; 
+    }
+    #card-small-r{
+        margin-left: 79px;
+    }
+    .title-card{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 25px;
+        margin-top: 36px;;
+    }
+    #title-card-big{
+        margin-top: 51px !important;
+    }
+    .infor-card{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top:30px;
+        padding: 0px 12px 0px 12px;
+    }
+    #infor-card-big{
+        padding: 0px 33px 0px 33px;
+    }
+}
