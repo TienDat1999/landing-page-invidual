@@ -1,22 +1,51 @@
-.annyHeplps{
+.annyHelps{
     font-family: Lato;
     font-style: normal;
-    font-weight: bold;
     background-image: url("/assets/images/Rectangle.png");
     text-align: center;
     background-size:cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:center;;
+    background-color: blue;
     @include tablet(){
-        
+        height: auto;
     }
     &__title{
-      
         font-size: 3.6rem;
+        margin-top: 4.4rem;
+    }
+    &__description{
+        margin-top: 4.4rem;
+        font-size: 2.4rem;
+    }
+    &__wrap__card{
+        margin-top: 7.6rem;
+        padding-bottom: 14.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    .anny__text{
+        font-weight: 600;
+        font-size: 18px;
+        width: 277px;
+        line-height: 22px;  
+        text-align: center;
+    }
+    .anny_img{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .annyCard{
+        margin: 0px 35px 144px 35px;
+        width: 325px;
+        height: 200px;
+        background: #FFFFFF;
+        background: #FFFFFF;
+        box-shadow: 3px 8px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 30px;
     }
 }
 
 .img__telegram{
-    transform: rotateY(180deg);
     margin-top: 35px;
 }
