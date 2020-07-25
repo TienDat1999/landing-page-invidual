@@ -1,4 +1,41 @@
-.img__hero{
-    width: 100%;
-    
+.premium {
+  font-family: Lato;
+  font-style: normal;
+  &__title {
+    text-align: center;
+    font-size: 2.6rem;
+  }
+  &__wrap__number {
+    width: 14.9rem;
+    height: 14.9rem;
+    background-color: #ffd65d;
+    border-radius: 50% 50%;
+    line-height: 14.9rem;
+  }
+  .premium__number {
+    text-align: center;
+    font-weight: 500;
+    font-size: 6rem;
+  }
+  .text__fist {
+    font-weight: bold;
+    font-size: 2.1rem;
+    line-height: 7rem;
+  }
+  .text__end {
+    font-size: 1.6rem;
+    width: 24.5rem;
+    line-height: 7rem;
+  }
+}
+.img__hero {
+  width: 100%;
+}
+.img__line3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img__line {
+  width: 100%;
 }
