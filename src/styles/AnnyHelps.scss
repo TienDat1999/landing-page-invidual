@@ -1,0 +1,22 @@
+.annyHeplps{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    background-image: url("/assets/images/Rectangle.png");
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    @include tablet(){
+        
+    }
+    &__title{
+      
+        font-size: 3.6rem;
+    }
+}
+
+.img__telegram{
+    transform: rotateY(180deg);
+    margin-top: 35px;
+}
