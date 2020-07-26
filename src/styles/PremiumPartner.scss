@@ -1,9 +1,26 @@
 .premium {
   font-family: Lato;
   font-style: normal;
+
+  @include mobile() {
+    padding: 10px;
+  }
+  .row {
+    justify-content: space-around;
+    @include mobile() {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .row__premium {
+    @include tablet() {
+      padding: 30px;
+    }
+  }
   &__title {
     text-align: center;
     font-size: 2.6rem;
+    margin: 1.6rem 3rem;
   }
   &__wrap__number {
     width: 14.9rem;
@@ -11,6 +28,7 @@
     background-color: #ffd65d;
     border-radius: 50% 50%;
     line-height: 14.9rem;
+    margin-right: 2.1rem;
   }
   .premium__number {
     text-align: center;
@@ -27,8 +45,34 @@
     width: 24.5rem;
     line-height: 7rem;
   }
+  &__wrap__below {
+    text-align: center;
+    width: 100%;
+    margin-top: 10rem;
+  }
+  &__text__partner {
+    font-weight: 500;
+    font-size: 3.1rem;
+    line-height: 3.7rem;
+  }
+  .btn__apply {
+    padding: 17px 36px 17px 36px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    border: 4px solid #121b2a;
+    border-radius: 34px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 4.8rem auto;
+  }
+  .premium__text_lovehearing {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
 }
-.img__hero {
+.img__dashboard {
   width: 100%;
 }
 .img__line3 {
@@ -36,6 +80,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.img__line {
+.img__line_premium {
   width: 100%;
+  margin-top: 7.6rem;
 }

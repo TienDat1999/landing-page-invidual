@@ -1,7 +1,7 @@
 @import url("https://rsms.me/inter/inter.css");
 @import "./styles/commons/reset.scss";
 @import "./styles/header.scss";
-@import "./styles/AnnyHelps.scss";  
+@import "./styles/AnnyHelps.scss";
 @import "./styles/signaGroup.scss";
 @import "./styles/PremiumPartner.scss";
 
@@ -9,11 +9,11 @@ html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
   font-size: 10px;
-  @include tablet(){
-    font-size: 8px;
+  @include tablet() {
+    font-size: 9px;
   }
-  @include mobile(){
-    font-size: 5px;
+  @include mobile() {
+    font-size: 6px;
   }
 }
 html {
@@ -31,8 +31,9 @@ html {
   margin: 0;
   padding: 0;
 }
-.row{
+.row {
   display: flex;
+  width: 100%;
 }
 .container {
   margin-right: auto;
